@@ -141,13 +141,6 @@ public class ReactNativeSmsUserConsentModule extends ReactContextBaseJavaModule 
     public void removeListeners(Integer count) {
     }
 
-    // Required for rn built in EventEmitter Calls.
-    @ReactMethod
-    public void addListener(String eventName) {}
-
-    @ReactMethod
-    public void removeListeners(Integer count) {}
-
     @ReactMethod
     public void startNativeSmsListener(Promise promise) {
         try {
